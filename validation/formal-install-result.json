@@ -1,0 +1,141 @@
+{
+  "status": "passed",
+  "platform": "ohos-arm64",
+  "phase": "formal",
+  "steps": [
+    {
+      "label": "01-update",
+      "exit_code": 0
+    },
+    {
+      "label": "02-install",
+      "exit_code": 0
+    },
+    {
+      "label": "03-clang",
+      "exit_code": 0
+    },
+    {
+      "label": "03-clangpp",
+      "exit_code": 0
+    },
+    {
+      "label": "03-cmake",
+      "exit_code": 0
+    },
+    {
+      "label": "03-cpack",
+      "exit_code": 0
+    },
+    {
+      "label": "03-ctest",
+      "exit_code": 0
+    },
+    {
+      "label": "03-ninja",
+      "exit_code": 0
+    },
+    {
+      "label": "03-llvm-readelf",
+      "exit_code": 0
+    },
+    {
+      "label": "04-hvigor",
+      "exit_code": 0
+    },
+    {
+      "label": "04-hvigorw",
+      "exit_code": 0
+    },
+    {
+      "label": "04-ohpm",
+      "exit_code": 0
+    },
+    {
+      "label": "05-version-entry",
+      "exit_code": 0
+    },
+    {
+      "label": "06-aarch64-unknown-linux-ohos-clang",
+      "exit_code": 0
+    },
+    {
+      "label": "06-aarch64-unknown-linux-ohos-clangpp",
+      "exit_code": 0
+    },
+    {
+      "label": "06-armv7-unknown-linux-ohos-clang",
+      "exit_code": 0
+    },
+    {
+      "label": "06-armv7-unknown-linux-ohos-clangpp",
+      "exit_code": 0
+    },
+    {
+      "label": "06-loongarch64-unknown-linux-ohos-clang",
+      "exit_code": 0
+    },
+    {
+      "label": "06-loongarch64-unknown-linux-ohos-clangpp",
+      "exit_code": 0
+    },
+    {
+      "label": "06-x86_64-unknown-linux-ohos-clang",
+      "exit_code": 0
+    },
+    {
+      "label": "06-x86_64-unknown-linux-ohos-clangpp",
+      "exit_code": 0
+    },
+    {
+      "label": "07-native-compile",
+      "exit_code": 0
+    },
+    {
+      "label": "07-remove-inherited-signature",
+      "exit_code": 0
+    },
+    {
+      "label": "07-sign-native",
+      "exit_code": 0
+    },
+    {
+      "label": "07-native-signature",
+      "exit_code": 0
+    },
+    {
+      "label": "07-run-native",
+      "exit_code": 0
+    },
+    {
+      "label": "08-hvigor-signing",
+      "exit_code": 0
+    },
+    {
+      "label": "09-switch",
+      "exit_code": 0
+    },
+    {
+      "label": "10-unlink",
+      "exit_code": 0
+    },
+    {
+      "label": "11-restore",
+      "exit_code": 0
+    },
+    {
+      "label": "12-remove",
+      "exit_code": 0
+    }
+  ],
+  "user_configuration_modified": false,
+  "verified_archive_seeded": true,
+  "artifact": "https://s3.oheco.org/command-line-tools/26.0.0.201/commandline-tools-harmonyos-26.0.0.201.tar.gz",
+  "sha256": "60929c00ae486cc038ea48145497ad34dbd4ac6a25c3f2fa895ce74afb4607f5",
+  "size": 2183292474,
+  "installed_command_count": 68,
+  "private_node_not_exported": true,
+  "native_self_signed_execution_verified": true,
+  "hap_signing": "passed",
+  "isolated_root_cleaned": true
+}
