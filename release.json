@@ -1,0 +1,20 @@
+{
+  "version": "26.0.0.201",
+  "platform": "ohos-arm64",
+  "upstream": "https://developer.huawei.com/consumer/cn/download/",
+  "url": "https://s3.oheco.org/command-line-tools/26.0.0.201/commandline-tools-harmonyos-26.0.0.201.tar.gz",
+  "sha256": "60929c00ae486cc038ea48145497ad34dbd4ac6a25c3f2fa895ce74afb4607f5",
+  "size": 2183292474,
+  "format": "tar.gz",
+  "strip_components": 1,
+  "upstream_archive_modified": false,
+  "components": {
+    "sdk": "26.0.0.105",
+    "api": 26,
+    "hvigor": "7.26.8",
+    "ohpm": "6.0.1"
+  },
+  "minimum_oo": "0.11.0",
+  "command_count": 68,
+  "license": "Multiple (see bundled component NOTICE.txt and license files)"
+}

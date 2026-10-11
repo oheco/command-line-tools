@@ -1,0 +1,127 @@
+{
+  "status": "passed",
+  "distribution_version": "26.0.0.201",
+  "hvigor": "7.26.8",
+  "sdk": "26.0.0.105",
+  "steps": [
+    {
+      "label": "00-prepare-wrapper-pnpm",
+      "exit_code": 0,
+      "expected_failure": false,
+      "timeout": false
+    },
+    {
+      "label": "00-wrapper-pnpm-version",
+      "exit_code": 0,
+      "expected_failure": false,
+      "timeout": false
+    },
+    {
+      "label": "01-root-ca",
+      "exit_code": 0,
+      "expected_failure": false,
+      "timeout": false
+    },
+    {
+      "label": "02-intermediate-ca",
+      "exit_code": 0,
+      "expected_failure": false,
+      "timeout": false
+    },
+    {
+      "label": "03-0-app-key",
+      "exit_code": 0,
+      "expected_failure": false,
+      "timeout": false
+    },
+    {
+      "label": "04-0-app-cert",
+      "exit_code": 0,
+      "expected_failure": false,
+      "timeout": false
+    },
+    {
+      "label": "03-1-profile-key",
+      "exit_code": 0,
+      "expected_failure": false,
+      "timeout": false
+    },
+    {
+      "label": "04-1-profile-cert",
+      "exit_code": 0,
+      "expected_failure": false,
+      "timeout": false
+    },
+    {
+      "label": "05-sign-profile",
+      "exit_code": 0,
+      "expected_failure": false,
+      "timeout": false
+    },
+    {
+      "label": "06-verify-profile",
+      "exit_code": 0,
+      "expected_failure": false,
+      "timeout": false
+    },
+    {
+      "label": "07-official-password-format",
+      "exit_code": 0,
+      "expected_failure": false,
+      "timeout": false
+    },
+    {
+      "label": "08-official-hvigor-signed-hap",
+      "exit_code": 0,
+      "expected_failure": false,
+      "timeout": false
+    },
+    {
+      "label": "09-verify-signed-hap",
+      "exit_code": 0,
+      "expected_failure": false,
+      "timeout": false
+    },
+    {
+      "label": "10-reject-tampered-hap",
+      "exit_code": 1,
+      "expected_failure": true,
+      "timeout": false
+    },
+    {
+      "label": "11-reject-incorrect-keystore-password",
+      "exit_code": 255,
+      "expected_failure": true,
+      "timeout": false
+    }
+  ],
+  "adapter_loaded": false,
+  "device_installation_verified": false,
+  "credentials_cleaned": true,
+  "active_step": "11-reject-incorrect-keystore-password",
+  "step_started_at": "2026-10-11T12:28:52+0800",
+  "wrapper_pnpm": {
+    "version": "10.28.2",
+    "sha256": "afa99b0b4b3d11c1dad2b472f9318ae2c78673829749ded527f89f09071479a7",
+    "prepared_from_verified_registry_archive": true,
+    "offline_build": true
+  },
+  "signed_hap": {
+    "file": "entry-default-signed.hap",
+    "size": 1333706,
+    "sha256": "34032bb13aa6c9cb4c1171fb86d741bf3f3f4b0e738a60f73dd981849f21a31c",
+    "native_verified": true,
+    "profile_matches": true,
+    "bundle_name": "org.oheco.commandlinetools"
+  },
+  "tampered_hap_rejected": true,
+  "incorrect_password_rejected": true,
+  "official_js_fingerprints": {
+    "hvigor/hvigor/bin/hvigor.js": "cb7edf20a1974474c27d0a69dac0b60ce0052b79884c47911972db41fe3fac7a",
+    "hvigor/hvigor/src/common/util/path-util.js": "d76de0bb9f56545575747b50449e841b90c7584764f7590b4fed1f877efccd49",
+    "hvigor/hvigor-ohos-plugin/src/tasks/sign-hap.js": "778c48c6c3e439b6bcc0aa8db4fd25e5ba427eba2ba2dd299ff36d44d881d169",
+    "hvigor/hvigor-ohos-plugin/src/utils/decipher-util.js": "8354f26abfa6d18efa3fd1dd82d2675964fcf5d1ac96b0aae29d74e7707d6f52",
+    "hvigor/hvigor-ohos-plugin/src/tasks/sign/command-builder-impl/hap-sign-command-builder.js": "79748555bb2d3238358b7a5435959018719c23bbfb90a22a6b2c584c5ac31fb4"
+  },
+  "checked_official_js_unchanged": true
+}

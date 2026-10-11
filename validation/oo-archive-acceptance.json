@@ -1,0 +1,62 @@
+{
+  "scope": "focused native packaged-client prepublication acceptance",
+  "version": "0.11.0",
+  "status": "passed",
+  "archive": {
+    "size": 3255159,
+    "sha256": "d9bce10b98b7bb4ca9b711979c21124a80f7733f93da2546e654f0d71c50ee4d"
+  },
+  "checks": [
+    {
+      "check": "archive_size_sha256_and_manifest",
+      "status": "pass"
+    },
+    {
+      "check": "archive_layout_permissions_and_exact_signed_binary",
+      "status": "pass"
+    },
+    {
+      "check": "bootstrap_rejects_version_and_corrupt_hash_before_mutation",
+      "status": "pass"
+    },
+    {
+      "check": "native_bootstrap_self_client_installation",
+      "status": "pass"
+    },
+    {
+      "check": "installed_client_idempotent_self_bootstrap",
+      "status": "pass"
+    },
+    {
+      "check": "removed_sdk_command_and_all_help_forms",
+      "status": "pass"
+    },
+    {
+      "check": "installed_client_update_200_304_search_info_and_list",
+      "status": "pass"
+    },
+    {
+      "check": "installed_client_offline_native_install_dry_run_no_switch_active_and_reuse",
+      "status": "pass"
+    },
+    {
+      "check": "installed_client_native_switch_unlink_schema3_and_restore",
+      "status": "pass"
+    },
+    {
+      "check": "installed_client_native_remove_dry_run_all_recover_and_self_reuse_at_schema3",
+      "status": "pass"
+    },
+    {
+      "check": "offline_cache_no_artifact_fetch_and_read_only_inputs_unchanged",
+      "status": "pass"
+    }
+  ],
+  "isolation": {
+    "scratch_mode": "0700",
+    "external_network": false,
+    "artifact_requests": 0,
+    "loopback_fixture_stopped": true,
+    "scratch_cleaned": true
+  }
+}

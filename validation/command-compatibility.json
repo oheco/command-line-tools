@@ -1,0 +1,18 @@
+{
+  "old_sdk_commands": 66,
+  "present": 65,
+  "missing": [
+    {
+      "command": "js_rawheap_translator",
+      "package": "ohos-sdk-toolchains",
+      "archive_path": "command-line-tools/sdk/default/openharmony/toolchains/js_rawheap_translator",
+      "present": false
+    }
+  ],
+  "hvigor_wrapper_present": true,
+  "format": "tar.gz",
+  "strip_components": 1,
+  "size_within_8_gib": true,
+  "unpacked_size_within_8_gib": true,
+  "entries_within_250000": true
+}
